@@ -1,0 +1,91 @@
+html body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "calibri";
+  color: #1b1b32;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+main {
+  background-color: #f5f6f7;
+}
+
+.contenedor {
+  width: 50%;
+  margin: 40px 350px;
+}
+
+.texto::selection {
+  background: #abbae0;
+}
+
+.contSponsor {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsor {
+  margin-top: 50px;
+  margin-left: 20px;
+  height: 50px;
+}
+
+.sponsor::selection {
+  background: #f5f6f7;
+}
+
+aside::selection {
+  background: #f5f6f7;
+}
+
+nav {
+  margin: 30px 180px;
+}
+
+nav button {
+  width: 107%;
+  height: 50px;
+  border: 3px solid #f1a02a;
+  font-size: 20px;
+  font-family: monospace;
+  background-color: #f1a02a;
+}
+
+nav button:hover {
+  background-color: #fecc4c;
+}
+
+center figcaption {
+  font-size: 23px;
+  font-family: sans-serif;
+}
+center figcaption::selection {
+  background: #abbae0;
+}
+
+.texto.titulo {
+  font-size: 45px;
+  font-family: sans-serif;
+}
+
+.texto.parrafo {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.hero {
+	display: flex;
+	justify-content: center;
+}
+
+.piePagina {
+  margin: auto;
+  text-align: center;
+}

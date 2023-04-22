@@ -1,0 +1,70 @@
+:root {
+  --colorletra: aliceblue;
+  --colorForm: #1c074d;
+}
+
+body {
+  background-image: url(./img/Background.jpg);
+  color: var(--colorletra);
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.container {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.containerSection1 {
+  text-align: center;
+}
+
+.containerSection2 {
+  background-color: var(--colorForm);
+  max-width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  opacity: 0.9;
+  padding: 15px 0 15px 0;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 90%;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.button {
+  background-color: #428e1a;
+  color: var(--colorletra);
+  border: none;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.moduloFormato {
+  margin-top: 8px;
+}
+
+.container__form__input--mod {
+  margin-top: 8px;
+  height: 30px;
+  border-radius: 3px;
+  color: grey;
+  font-family: sans-serif;
+}
+.container__form__check--mod {
+  margin-right: 15px;
+}
+
+.piePagina {
+  margin: auto;
+  text-align: center;
+}
