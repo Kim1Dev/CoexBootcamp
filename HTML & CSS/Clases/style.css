@@ -1,0 +1,45 @@
+.tabla{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 4px;
+    border-collapse: collapse;
+}
+
+.filas{
+    display: table-row;
+}
+
+.celda{
+    display: table-cell;
+    border: 2px solid red;
+}
+
+.tabla2{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,th{
+    border: 2px solid violet;
+}
+
+.conta> p{
+    outline: 2px solid black;
+    text-shadow: 4px 4px 4px greenyellow;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    outline: 2px solid salmon;
+    width: 40vh;
+    height: 40vh;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.container{
+    outline: 2px solid;
+}
