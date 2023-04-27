@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kimi House - Harry Potter</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+
+    <!-- Barra de navegación -->
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header">
+        <div class="nav-title">
+          <a href="index.html"><img src="./img/KimiLogo.png" class="imgnav"/></a>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="tiendita.html">Tiendita</a>
+        <a href="harrypotter.html">Harry Potter</a>
+        <a href="rickmorty.html">Rick and Morty</a>
+        <a href=""></a>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <h1 class="tituloC">Trailer</h1>
+    </div>
+    <center>
+        <video controls>
+            <source src="./video/TrailerHarryPotter.mp4" type="video/mp4">
+        </video>
+    </center>
+    <br>
+    <br>
+
+    <!-- Personajes -->
+    <div>
+        <h1 class="tituloC">Conoce los personajes</h1>
+    </div>
+
+    <br>
+    <br>
+    <center>
+    <table align="center" border="1" bgcolor=" #f07faa ">
+        <tr align="center">
+            <td>Nombre</td>
+            <td>Imagen</td>
+            <td>Especie</td>
+            <td>Genero</td>
+            <td>Casa</td>
+            <td>Nacimiento</td>
+            <td>Mago</td>
+            <td>Color de ojos</td>
+            <td>Color de cabello</td>
+        </tr>
+        <tr align="center">
+            <td>Harry Potter</td>
+            <td> <img src="https://ik.imagekit.io/hpapi/harry.jpg" alt="" width="200 px" height="200px"></td>
+            <td>Humano</td>
+            <td>Masculino</td>
+            <td>Gryffindor</td>
+            <td>31-07-1980</td>
+            <td>Si</td>
+            <td>Verdes</td>
+            <td>Negro</td>
+        </tr>
+        <tr align="center">
+            <td>Hermione Granger</td>
+            <td><img src="https://ik.imagekit.io/hpapi/hermione.jpeg"" alt="" width="200 px" height="200px"></td>
+            <td>Humano</td>
+            <td>Femenino</td>
+            <td>Gryffindor</td>
+            <td>19-09-1979</td>
+            <td>Si</td>
+            <td>Cafés</td>
+            <td>Café</td>
+        </tr>
+        <tr align="center">
+            <td>Ron Weasley</td>
+            <td><img src="https://ik.imagekit.io/hpapi/ron.jpg" alt="" width="200 px" height="200px"></td>
+            <td>Humano</td>
+            <td>Masculino</td>
+            <td>Gryffindor</td>
+            <td>01-03-1980</td>
+            <td>Si</td>
+            <td>Azules</td>
+            <td>Rojo</td>
+        </tr>
+        <tr align="center">
+            <td>Draco Malfoy</td>
+            <td><img src="https://ik.imagekit.io/hpapi/draco.jpg" alt="" width="200 px" height="200px"></td>
+            <td>Humano</td>
+            <td>Masculino</td>
+            <td>Slytherin</td>
+            <td>05-06-1980</td>
+            <td>Si</td>
+            <td>Verdes</td>
+            <td>Mono</td>
+        </tr>
+        <tr align="center">
+            <td>Minerva McGonagall</td>
+            <td><img src="https://ik.imagekit.io/hpapi/mcgonagall.jpg" alt="" width="200 px" height="200px"></td>
+            <td>Humano</td>
+            <td>Femenino</td>
+            <td>Gryffindor</td>
+            <td>04-10-1925</td>
+            <td>Si</td>
+            <td>Holi</td>
+            <td>Negro</td>
+        </tr>
+    </table>
+    </center>
+
+    <!-- Formulario de registro -->
+
+    <div>
+        <h1 class="tituloC">Agrega el personaje</h1>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="testbox">
+        <form action="/">
+        <label id="icon" for="name"><i class="icon-envelope "></i></label>
+        <input type="text" name="name" id="name" placeholder="Nombre" required/>
+        <label id="icon" for="name"><i class="icon-user"></i></label>
+        <input type="text" name="name" id="name" placeholder="Especie" required/>
+        <label id="icon" for="name"><i class="icon-shield"></i></label>
+        <input type="password" name="name" id="name" placeholder="Casa" required/>
+        <div class="gender">
+          <input type="radio" value="None" id="hombre" name="gender" checked/>
+          <label for="male" class="radio" chec>Hombre</label>
+          <input type="radio" value="None" id="mujer" name="gender" />
+          <label for="female" class="radio">Mujer</label>
+         </div> 
+         <p>Al hacer clic en registrar, aceptas los <a href="#">terminos y condiciones</a>.</p>
+         <a href="#" class="button">Registrar</a>
+        </form>
+      </div>
+
+
+      <br>
+      <br>
+
+    <footer>
+        <h1 class="fottertext">Hecho por Camila Arévalo [Kimi]</h1>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kimi House</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+
+    <!-- Barra de navegación -->
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header">
+        <div class="nav-title">
+          <a href="#"><img src="./img/KimiLogo.png" class="imgnav"/></a>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="tiendita.html">Tiendita</a>
+        <a href="harrypotter.html">Harry Potter</a>
+        <a href="rickmorty.html">Rick and Morty</a>
+        <a href=""></a>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <h1 class="tituloC">Conoce nuestro catalogo</h1>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Tarjetas -->
+    <div class="container">
+        <a href="tiendita.html">
+        <div class="box">
+            <div class="imgBox">
+                <img src="./img/Tienda.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>La tiendita</br>
+                <span>Hecho para ti</span></h2>
+            </div></a>
+        </div>
+        <div class="box">
+            <a href="harrypotter.html">
+            <div class="imgBox">
+                <img src="./img/HarryP.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Harry Potter</br>
+                <span>Autora británica J. K. Rowling</span></h2>
+            </div></a>
+        </div>
+        <div class="box">
+            <a href="rickmorty.html">
+            <div class="imgBox">
+                <img src="./img/RickMorty.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Rick and Morty</br>
+                <span>Autores Justin Roiland y Dan Harmon</span></h2>
+            </div>
+        </div></a>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Formulario de registro -->
+
+    <div>
+        <h1 class="tituloC">Registrate</h1>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="testbox">
+        <form action="/">
+        <label id="icon" for="name"><i class="icon-envelope "></i></label>
+        <input type="text" name="name" id="name" placeholder="Correo electronico" required/>
+        <label id="icon" for="name"><i class="icon-user"></i></label>
+        <input type="text" name="name" id="name" placeholder="Nombre" required/>
+        <label id="icon" for="name"><i class="icon-shield"></i></label>
+        <input type="password" name="name" id="name" placeholder="Contraseña" required/>
+        <div class="gender">
+          <input type="radio" value="None" id="hombre" name="gender" checked/>
+          <label for="male" class="radio" chec>Hombre</label>
+          <input type="radio" value="None" id="mujer" name="gender" />
+          <label for="female" class="radio">Mujer</label>
+         </div> 
+         <p>Al hacer clic en registrar, aceptas los <a href="#">terminos y condiciones</a>.</p>
+         <a href="#" class="button">Registrar</a>
+        </form>
+      </div>
+
+      <br>
+      <br>
+
+    <footer>
+        <h1 class="fottertext">Hecho por Camila Arévalo [Kimi]</h1>
+    </footer>
+  </body>
+</html>

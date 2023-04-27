@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kimi House - Rick and Morty</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+
+    <!-- Audio -->
+    <audio autoplay>
+        <source src="./audio/SaludoRick.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Barra de navegación -->
+    <div class="nav">
+      <input type="checkbox" id="nav-check" />
+      <div class="nav-header">
+        <div class="nav-title">
+          <a href="index.html"><img src="./img/KimiLogo.png" class="imgnav"/></a>
+        </div>
+      </div>
+
+      <div class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="tiendita.html">Tiendita</a>
+        <a href="harrypotter.html">Harry Potter</a>
+        <a href="rickmorty.html">Rick and Morty</a>
+        <a href=""></a>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Contenido -->
+    <div>
+        <h1 class="tituloC">Conoce los personajes</h1>
+    </div>
+
+    <br>
+    <br>
+    
+    <center>
+      <table align="center" border="1" bgcolor="#f07faa">
+        <tr align="center">
+            <td>Nombre</td>
+            <td>Imagen</td>
+            <td>Especie</td>
+            <td>Origen</td>
+        </tr>
+        <tr align="center">
+            <td>Rick Sanchez</td>
+            <td><img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"></td>
+            <td>Human</td>
+            <td>Earth (C-137)</td>
+            <td>Hombre</td>
+        </tr>
+        <tr align="center">
+            <td>Morty Smith</td>
+            <td><img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"></td>
+            <td>Human</td>
+            <td>Earth (C-137)</td>
+            <td>Hombre</td>
+        </tr>
+        <tr align="center">
+            <td>Summer Smith</td>
+            <td><img src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"></td>
+            <td>Human</td>
+            <td>Earth (C-137)</td>
+            <td>Mujer</td>
+        </tr>
+        <tr align="center">
+            <td>Beth Smith</td>
+            <td><img src="https://rickandmortyapi.com/api/character/avatar/4.jpeg"></td>
+            <td>Human</td>
+            <td>Earth (C-137)</td>
+            <td>Mujer</td>
+        </tr>
+        <tr align="center">
+            <td>Jerry Smith</td>
+            <td><img src="https://rickandmortyapi.com/api/character/avatar/5.jpeg"></td>
+            <td>Human</td>
+            <td>Earth (C-137)</td>
+            <td>Hombre</td>
+        </tr>
+      </table>
+    </center>
+
+    <!-- Formulario de registro -->
+
+    <div>
+      <h1 class="tituloC">Agrega el personaje</h1>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="testbox">
+        <form action="/">
+        <label id="icon" for="name"><i class="icon-envelope "></i></label>
+        <input type="text" name="name" id="name" placeholder="Nombre" required/>
+        <label id="icon" for="name"><i class="icon-user"></i></label>
+        <input type="text" name="name" id="name" placeholder="Especie" required/>
+        <label id="icon" for="name"><i class="icon-shield"></i></label>
+        <input type="password" name="name" id="name" placeholder="Origen" required/>
+        <div class="gender">
+          <input type="radio" value="None" id="hombre" name="gender" checked/>
+          <label for="male" class="radio" chec>Hombre</label>
+          <input type="radio" value="None" id="mujer" name="gender" />
+          <label for="female" class="radio">Mujer</label>
+        </div> 
+        <p>Al hacer clic en registrar, aceptas los <a href="#">terminos y condiciones</a>.</p>
+        <a href="#" class="button">Registrar</a>
+        </form>
+      </div>
+
+    <br>
+    <br>
+
+    <footer>
+        <h1 class="fottertext">Hecho por Camila Arévalo [Kimi]</h1>
+    </footer>
+  </body>
+</html>
